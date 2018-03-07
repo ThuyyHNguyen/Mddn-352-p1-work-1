@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+	<style>
+	ul.topnav {
+	    list-style-type: none;
+	    margin: 0;
+	    padding: 0;
+	    overflow: hidden;
+	    background-color: #333;
+	}
+
+	ul.topnav li {float: left;}
+
+	ul.topnav li a {
+	    display: block;
+	    color: white;
+	    text-align: center;
+	    padding: 14px 16px;
+	    text-decoration: none;
+	}
+	select{
+	    text-align: center;
+		display: block;
+	    color: black;
+	    text-align: center;
+	    padding: 14px 16px;
+	    text-decoration: none;
+	}
+	ul.topnav li a:hover:not(.active) {background-color: #111;}
+
+	ul.topnav li a.active {background-color: #4CAF50;}
+
+	ul.topnav li.right {float: right;}
+
+	@media screen and (max-width: 480px){
+	    ul.topnav li.right, 
+	    ul.topnav li {float: none;}
+	}
+	</style>
+	<head>
+		<title>Page Title</title>
+	</head>
+	<body>
+            <nav> 
+
+            <ul class="topnav">
+                  <li><a href="#home">Home</a></li>
+                  <li><a href="#news">Yes</a></li>
+                  <li><a href="/pages/support">Click</a> </li> 
+            <select> 
+                    <option value="" selected="selected">Select</option> 
+                    <option value="/">Home</option> 
+                    <option value="/collections/all">Hi</option> 
+                    <option value="/blogs/five-simple-steps-blog">What</option> 
+                    <option value="/pages/about-us">About Us</option> 
+                    <option value="/pages/support">Support</option> 
+                </select> 
+            </ul>
+            </nav>
+        </header>
+
+		<h1>This is a Heading</h1>
+		<p>This is a paragraph.</p>
+
+	</body>
+</html>
